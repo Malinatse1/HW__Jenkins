@@ -1,0 +1,8 @@
+5811817418:AAHhnpodoLzPnPs1Leuu0pT6KtbD7K2D1t4
+
+https://api.telegram.org/5811817418:AAHhnpodoLzPnPs1Leuu0pT6KtbD7K2D1t4/getUpdates
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "123456789", "text": "This is a test from curl", "disable_notification": true}' \
+     https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage
