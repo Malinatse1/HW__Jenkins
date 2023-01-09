@@ -1,0 +1,5 @@
+5811817418:AAHhnpodoLzPnPs1Leuu0pT6KtbD7K2D1t4
+-843763556
+https://api.telegram.org/bot5811817418:AAHhnpodoLzPnPs1Leuu0pT6KtbD7K2D1t4/getUpdates
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-843763556", "text": "This is a test from qa.quru", "disable_notification": true}' https://api.telegram.org/5811817418:AAHhnpodoLzPnPs1Leuu0pT6KtbD7K2D1t4/sendMessage
